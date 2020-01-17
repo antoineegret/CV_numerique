@@ -156,3 +156,17 @@ ctx.lineWidth='8';
 ctx.strokeStyle='white';
 ctx.lineCap='round'
 ctx.stroke();
+/* barre blanche pour ancre hobbie */
+var c = document.getElementById("canvasHobbie");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.shadowColor = 'black';
+ctx.shadowOffsetX = 5;
+ctx.shadowOffsetY = 10;
+ctx.shadowBlur = 5;
+ctx.moveTo(10,50);
+ctx.lineTo(1000,50);
+ctx.lineWidth='8';
+ctx.strokeStyle='white';
+ctx.lineCap='round'
+ctx.stroke();
