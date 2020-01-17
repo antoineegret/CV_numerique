@@ -19,7 +19,7 @@
     </div>
   </header>
   <!-- début de la navbar -->
-  <div class="container-fluid d-flex justify-content-between bg-light sticky-top">
+  <div class="container-fluid navbar navbar0 d-flex justify-content-between bg-light sticky-top">
     <!-- début bouton 0 -->
     <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="#">Acueil</a>
@@ -36,14 +36,14 @@
       <!-- fin bouton 1 -->
       <!-- fin bouton 2 -->
       <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#studdies">Etudes & formation</a>
+        <a class="navbar-brand" href="#canvas">Etudes & formation</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </nav>
         <!-- fin bouton 2 -->
         <!-- début bouton 3 -->
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="#">Expérience</a>
+          <a class="navbar-brand" href="#canvasExpérience">Expérience</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </nav>
@@ -58,15 +58,28 @@
           </div>
           <!-- fin de la navbar -->
           <div class="container pt-5" id="presentation">
-<h2 class="text-white mt-3">Présentation :</h2>
-<p class="text-white">Bienvenue sur mon CV numérique, je m'apelle antoine egret, et je suis actuellement en formation developpeur web a Amiens dans l'école la Manu.<br> A l'origine j'ai débuter mes études dans le graphisme pour le print puis je me suis tournée vers le digital qui offre de bien meilleur perspective d'avenir.<br></p>
-<p class="text-white">Et c'est donc pour cela que je suis a la recherche d'un contrat d'alternance, afin d'obtenir le titre professionnel concepteur developpeur d'aplication mobile.</p>
-<p class="text-white"></p>
-<div class="container ">
-  <h2 class="text-white text-center" id="studdies">Etudes & Formations</h2>
+<h2 class="text-white mt-3 offset-1">Présentation :</h2>
+<img src="assets/img/moi1.jpg" class="float-right img-fluid img-thumbnail col-sm-3" id="photoProfil" alt="">
+<p class="text-dark rounded col-sm-7 offset-1 text-justify bg-light" id="textPresentation">Bienvenue sur mon CV numérique, je m'apelle antoine egret, et je suis actuellement en formation developpeur web
+  a Amiens dans l'école la Manu. A l'origine j'ai débuter mes études dans le graphisme pour le print puis je me suis tournée vers le
+  digital qui offre de bien meilleur perspective d'avenir. Et c'est donc pour cela que je suis a la recherche d'un contrat d'alternance,
+   afin d'obtenir le titre professionnel concepteur developpeur d'aplication mobile.</p>
+<canvas id="canvas" width="1060" height="80"></canvas>
+<div class="container">
+  <h2 class="text-white text-center" >Etudes & Formations</h2>
   <!-- début canvas pour frise chronologique a retrouver dans le JavaScript -->
   <canvas id="myCanvas" width="1060" height="1800" style=""></canvas>
+  <canvas id="canvasExpérience" width="1060" height="100"></canvas>
   <!-- fin canvas pour frise chronologique -->
+</div>
+<div class="container-fluid ml-5">
+<h2 class="text-white text-center">Expérience professionnel</h2>
+<img src="assets/img/supplay.png" class="col-sm-3 float-left img-responsive img-thumbnail" alt="">
+<img src="assets/img/mcdologo.svg" class="col-sm-3 offset-1 float-left img-responsive img-thumbnail" alt="">
+<img src="assets/img/supplay.png" class="col-sm-3 offset-1 float-left img-responsive img-thumbnail" alt="">
+<img src="assets/img/tfsl.jpg" class="col-sm-3 mt-3 float-left img-responsive img-thumbnail" alt="">
+<img src="assets/img/pattatesculture.jpg" class="col-sm-3 mt-3 offset-1 float-left img-responsive img-thumbnail" alt="">
+<img src="assets/img/verger.jpg" class="col-sm-3 mt-3 offset-1 float-left img-responsive img-thumbnail" alt="">
 </div>
           </div>
           <!-- Optional JavaScript -->

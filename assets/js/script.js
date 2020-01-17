@@ -23,6 +23,9 @@ ctx.quadraticCurveTo(100, 1000, 110, 1200);
 ctx.quadraticCurveTo(100, 1500, 400, 1500);
 ctx.lineTo(1000,1500);
 /* début propriéter style du tracer canvas */
+/* début du tracer canvas */
+
+
 ctx.lineWidth='8';
 ctx.strokeStyle='white';
 ctx.lineCap='round'
@@ -81,6 +84,8 @@ ctx.setLineDash([5, 15]);
 ctx.moveTo(200,180);
 ctx.lineTo(330,180);
 
+
+
 /* début style des pointillé */
 ctx.lineWidth='3';
 ctx.strokeStyle='white';
@@ -121,3 +126,33 @@ ctx.strokeStyle='white';
 ctx.lineCap='round'
 ctx.stroke();
 /* fin des pointillé 4e paragraphe */
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.shadowColor = 'black';
+ctx.shadowOffsetX = 5;
+ctx.shadowOffsetY = 10;
+ctx.shadowBlur = 5;
+/* début du tracer canvas */
+ctx.moveTo(160,10);
+ctx.lineTo(1000,10);
+/* début propriéter style du tracer canvas */
+ctx.lineWidth='8';
+ctx.strokeStyle='white';
+ctx.lineCap='round'
+ctx.stroke();
+/* barre blanche pour ancre experience professionnel */
+var c = document.getElementById("canvasExpérience");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.shadowColor = 'black';
+ctx.shadowOffsetX = 5;
+ctx.shadowOffsetY = 10;
+ctx.shadowBlur = 5;
+ctx.moveTo(80,50);
+ctx.lineTo(1000,50);
+ctx.lineWidth='8';
+ctx.strokeStyle='white';
+ctx.lineCap='round'
+ctx.stroke();
