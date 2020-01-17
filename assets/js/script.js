@@ -18,14 +18,14 @@ ctx.lineTo(900,800);
 ctx.quadraticCurveTo(900, 1000, 650, 1000);
 ctx.lineTo(450,1000);
 /* 4e courbe canvas */
-ctx.quadraticCurveTo(100, 1000, 110, 1200);
+ctx.bezierCurveTo(350, 1000, 100, 1000, 100, 1200);
+ctx.lineTo(100,1300);
 /* 5e courbe canvas */
-ctx.quadraticCurveTo(100, 1500, 400, 1500);
+ctx.bezierCurveTo(100, 1500, 300, 1500, 300, 1500);
+ctx.lineTo(400,1500);
 ctx.lineTo(1000,1500);
 /* début propriéter style du tracer canvas */
 /* début du tracer canvas */
-
-
 ctx.lineWidth='8';
 ctx.strokeStyle='white';
 ctx.lineCap='round'
@@ -138,6 +138,20 @@ ctx.shadowBlur = 5;
 ctx.moveTo(160,10);
 ctx.lineTo(1000,10);
 /* début propriéter style du tracer canvas */
+ctx.lineWidth='8';
+ctx.strokeStyle='white';
+ctx.lineCap='round'
+ctx.stroke();
+/* barre blanche pour ancre presentation */
+var c = document.getElementById("canvasPresentation");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.shadowColor = 'black';
+ctx.shadowOffsetX = 5;
+ctx.shadowOffsetY = 10;
+ctx.shadowBlur = 5;
+ctx.moveTo(150,10);
+ctx.lineTo(1240,10);
 ctx.lineWidth='8';
 ctx.strokeStyle='white';
 ctx.lineCap='round'
