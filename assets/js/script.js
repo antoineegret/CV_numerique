@@ -54,8 +54,6 @@ ctx.fillText("2017 / 2018", 930, 680);
 ctx.fillText("Durant cette année validée j'y ai appris les bases du", 50, 650);
 ctx.fillText("graphisme et du webdesign, je n'ai malheureusement pas terminée", 50, 690);
 ctx.fillText("ce diplôme, ce qui est dommage car je n'était pas mauvais", 50, 730);
-
-
 /* fin du 2e paragraphe */
 /* début du 3e paragraphe */
 ctx.font = "25px Georgia";
@@ -83,9 +81,6 @@ ctx.beginPath();
 ctx.setLineDash([5, 15]);
 ctx.moveTo(200,180);
 ctx.lineTo(330,180);
-
-
-
 /* début style des pointillé */
 ctx.lineWidth='3';
 ctx.strokeStyle='white';
@@ -126,7 +121,6 @@ ctx.strokeStyle='white';
 ctx.lineCap='round'
 ctx.stroke();
 /* fin des pointillé 4e paragraphe */
-
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
 ctx.beginPath();
@@ -150,7 +144,7 @@ ctx.shadowColor = 'black';
 ctx.shadowOffsetX = 5;
 ctx.shadowOffsetY = 10;
 ctx.shadowBlur = 5;
-ctx.moveTo(150,10);
+ctx.moveTo(170,10);
 ctx.lineTo(1240,10);
 ctx.lineWidth='8';
 ctx.strokeStyle='white';
@@ -164,7 +158,7 @@ ctx.shadowColor = 'black';
 ctx.shadowOffsetX = 5;
 ctx.shadowOffsetY = 10;
 ctx.shadowBlur = 5;
-ctx.moveTo(80,50);
+ctx.moveTo(170,50);
 ctx.lineTo(1000,50);
 ctx.lineWidth='8';
 ctx.strokeStyle='white';
@@ -178,7 +172,7 @@ ctx.shadowColor = 'black';
 ctx.shadowOffsetX = 5;
 ctx.shadowOffsetY = 10;
 ctx.shadowBlur = 5;
-ctx.moveTo(10,50);
+ctx.moveTo(90,50);
 ctx.lineTo(1000,50);
 ctx.lineWidth='8';
 ctx.strokeStyle='white';
